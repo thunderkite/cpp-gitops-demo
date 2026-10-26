@@ -17,7 +17,7 @@ spec:
         runAsUser: 65532
       containers:
         - name: cpp-demo
-          image: cpp-demo:v1
+          image: cpp-demo:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
